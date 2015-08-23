@@ -13,15 +13,22 @@
    <figcaption>Sun shaine all are happy </figcaption>
    </figure>
    
-  <canvas id="myCanvas" width="200" height="100" style="border:6px solid #d3d3d3;">
-   <script>
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.arc(95,50,40,0,2*Math.PI);
-ctx.fillStyle = "rgb (255, 0, 102)";
-ctx.stroke();
-</script> 
+   <canvas height='220' width='380' id='example'> </canvas>
+       
+            <script>
+            
+            var example = document.getElementById("example"),
+                ctx     = example.getContext('2d');
+                ctx.fillStyle = "rgb(255, 0, 102)";
+                ctx.fillRect(0, 0, example.width, example.height);
+           
+             </script>
+             
+             <video src="Images/rain.mp4" width="400" height="300">
+       
+       </video>
+
+ 
  </body>
  </html>
  
