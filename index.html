@@ -3,8 +3,7 @@
 <head>
 <body>
  <p> Hello world </p> 
- <img src="Images/condition_32.png" alt = "weather condition"/>
- <img src = "Images/weather1.png" alt = "Web model"/> 
+  <img src = "Images/weather1.png" alt = "Web model"/> 
  <p><a href="http://yahoo.com">Yahoo Network</a></p>
  <p>I love my son <b><i><font size ="4"> Marko</b></i></font></p>
   &copy; <small><i> Iryna Mocherniuk </smal></i>
@@ -31,7 +30,51 @@
        
        </video>
 </p>
+ <p> My favorite flovers: </p>
+  
+  <ul>
+   <li> Roses </li>
+   <li> Camomila </li>
+  </ul>
  
+  <div id= "contact-form"
+  style = "font family:'Comic Sans MS', cursive, sans-serif;">
+  <form id = "contact" method = "post" action="">
+  
+   <fieldset>
+    <p>
+    <label for="name">Name</label>
+    <input type= "text" name ="name"/>
+    </p>
+    
+   
+     <p>
+     <label for="email">Email</label>
+     <input type="email" required />
+     </p>
+     
+    <p>
+     <label for="cell"> Cell</label>
+    <input type="telephone" name= "cell" />
+    </p>
+   
+     <p>
+    <label for="age"> Age</label>
+    <input type="number" size="6" name="age" min="18" max="99" value="21"><br>
+    </p>
+    
+    <p>
+    <label for="satisfaction"> Satisfaction</label>
+    <input type="range" size="5" name="satisfaction" min="1" max="10" value="5">
+    </p>
+     
+     <p>
+     <button type="button" onclick="alert('Hello world!')"> Submit</button>
+     </p>
+     
+      </fieldset>
+     </form>
+  </div> 
  </body>
  </html>
  
